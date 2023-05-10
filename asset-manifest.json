@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/form/static/css/main.398b775b.css",
+    "main.js": "/form/static/js/main.4886f000.js",
+    "static/media/BellotaText-Bold.ttf": "/form/static/media/BellotaText-Bold.ad922308c622eb12c00c.ttf",
+    "static/media/BellotaText-Regular.ttf": "/form/static/media/BellotaText-Regular.53253e36d93a74b3fd96.ttf",
+    "static/media/BellotaText-Light.ttf": "/form/static/media/BellotaText-Light.509a4274b5b9b4fea707.ttf",
+    "static/media/color.png": "/form/static/media/color.6441e63a57ccc5105bad.png",
+    "index.html": "/form/index.html",
+    "main.398b775b.css.map": "/form/static/css/main.398b775b.css.map",
+    "main.4886f000.js.map": "/form/static/js/main.4886f000.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.398b775b.css",
+    "static/js/main.4886f000.js"
+  ]
+}
