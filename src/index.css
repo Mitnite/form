@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+  display: block;
+  max-width: 1920px;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Bellota Text', serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Bellota Text';
+  src: url("./fonts/BellotaText-Light.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bellota Text';
+  src: url("./fonts/BellotaText-Bold.ttf") format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bellota Text';
+  src: url("./fonts/BellotaText-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

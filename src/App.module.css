@@ -1,0 +1,67 @@
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.Container{
+    padding: 25px 25px;
+    width: 650px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0 7px 14px 0, rgba(0, 0, 0, 0.12) 0 3px 6px 0;
+
+}
+
+.Calendar > input::placeholder{
+    font-family: "Bellota Text", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.Form {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header {
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Calendar{
+    width: 290px;
+    margin-top: 10px;
+}
+
+.buttonContainer{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.checkContainer .check {
+    font-family: 'Bellota Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ED2929;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.checkContainer{
+    width: 250px;
+    height: 3px;
+}

@@ -1,0 +1,54 @@
+.TextArea {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-family: 'Bellota Text', serif;
+    width: 290px;
+    margin-top: 13px;
+}
+
+.TextArea  input{
+    font-family: "Bellota Text", sans-serif;
+    outline: 0;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D0C23;
+    width: 90%;
+    cursor: pointer;
+}
+
+.TextArea .inputContainer {
+
+    height: 50px;
+    padding: 10px 15px 10px 10px;
+    border: 1px solid #ced4da;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0D0C23;
+    width: 290px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.TextArea .inputContainer:hover {
+    border: 1px solid #6366F1;
+    outline: 0;
+}
+
+.TextArea input[type=text]::placeholder {
+    font-family: "Bellota Text", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}

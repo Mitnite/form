@@ -1,0 +1,96 @@
+.SelectForm {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-family: 'Bellota Text', serif;
+    width: 290px;
+    margin-top: 10px;
+}
+
+.SelectForm  input{
+    font-family: "Bellota Text", sans-serif;
+    outline: 0;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D0C23;
+    width: 90%;
+    cursor: pointer;
+}
+
+.input{
+    display: inline-block;
+    position: relative;
+}
+
+.SelectForm .inputContainer {
+
+    height: 50px;
+    padding: 10px 15px 10px 10px;
+    border: 1px solid #ced4da;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0D0C23;
+    width: 290px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.SelectForm .inputContainer:hover {
+    border: 1px solid #6366F1;
+    outline: 0;
+}
+
+.SelectForm input[type=text]::placeholder {
+    font-family: "Bellota Text", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.SelectItems {
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 3px 10px rgba(28, 58, 116, 0.15);
+    border-radius: 5px;
+    z-index: 60;
+    width: 290px;
+    margin-top: 10px;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.SelectItems::-webkit-scrollbar {
+    width: 0;
+}
+
+.SelectItem{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    background: #FFFFFF;
+
+    padding: 8px 8px 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SelectItem:hover{
+    cursor: pointer;
+    background: #DCE8FF;
+}
+
+
+
